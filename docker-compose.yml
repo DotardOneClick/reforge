@@ -1,0 +1,13 @@
+version: '3.9'
+
+# Reforge - service added gradually per phase
+# Phase 1: parser + postgres
+# Phase 2: + airflow
+# Phase 3: + qdrant
+# Phase 4: + langfuse
+# Phase 5: + mlflow + evidently
+# Phase 6: + api
+# Phase 7: + grafana + metabase
+# Phase 8: + cpp_similarity (C++ microservice via CMake)
+
+services: {}

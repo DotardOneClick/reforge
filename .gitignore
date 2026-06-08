@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.env
+
+# Jypyter
+.ipynb_checkpoints
+
+# dbt
+dbt_packages/
+target/
+logs/
+
+# Docker
+.docker/
+
+# MLflow
+mlruns/
+mlartifacts/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# C++
+cpp/build/
+*.o
+*.out
+*.a
+
+# IDE
+.vscode/settings.json
+.idea/
+
+# Secrets
+*.pem
+*.key
