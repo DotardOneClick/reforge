@@ -23,6 +23,7 @@ make up
 
 ## Project Structure
 
+```
 reforge/
 ├── data/         # parsers, airflow, dbt
 ├── ml/           # NER, embeddings, matching
@@ -31,6 +32,7 @@ reforge/
 ├── cpp/          # C++ similarity service
 ├── infra/        # k8s, grafana, metabase
 └── cv_processor/ # PDF/DOCX parser & exporter
+```
 
 ## Roadmap
 
